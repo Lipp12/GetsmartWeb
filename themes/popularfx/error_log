@@ -1,0 +1,8 @@
+[22-Jan-2026 13:19:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/getsmart/public_html/wp-content/themes/popularfx/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/getsmart/public_html/wp-content/themes/popularfx/index.php on line 15
+[12-Feb-2026 15:24:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/getsmart/public_html/wp-content/themes/popularfx/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/getsmart/public_html/wp-content/themes/popularfx/index.php on line 15

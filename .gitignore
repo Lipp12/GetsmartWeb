@@ -1,0 +1,67 @@
+# =======================================================
+# WordPress wp-content .gitignore
+# PT Get Smart Production Indonesia
+# =======================================================
+
+# 1. Environment, Kredensial & File Sensitif (JANGAN DI-PUSH)
+.env
+.env.*
+*.key
+*.pem
+*.cert
+*.crt
+wp-config.php
+wp-config-sample.php
+
+# 2. Database Dumps & SQL
+*.sql
+*.sqlite
+*.db
+
+# 3. File Arsip & Kompresi
+*.zip
+*.rar
+*.tar
+*.gz
+*.7z
+
+# 4. Folder Backup Otomatis dari Plugin (Sering berisi full backup & SQL)
+/backuply/
+/backups/
+/updraft/
+/ai1wm-backups/
+/backup-db/
+/upgrade/
+/upgrade-temp-backup/
+
+# 5. Cache & Log Sistem
+/cache/
+/speedycache-config/
+/w3tc-config/
+/et-cache/
+*.log
+debug.log
+
+# 6. Uploads Media (Ukuran besar & dinamis)
+/uploads/*
+!/uploads/.gitkeep
+
+# 7. Backup & Temporary Files
+*.bak
+*.backup
+*_backup.*
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+
+# 8. Editor & OS Junk Files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+node_modules/
